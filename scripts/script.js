@@ -11,7 +11,7 @@ const fireworks = new Fireworks(fireworkContainer, {
 
 function updateCountdown() {
   const currentDate = new Date();
-  const newYearsDate = new Date("2024-01-01T00:00:00");
+  const newYearsDate = new Date("2025-01-01T00:00:00");
   const timeDifference = newYearsDate - currentDate;
 
   if (timeDifference > 0) {
